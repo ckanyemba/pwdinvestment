@@ -3,12 +3,12 @@ import { notFound } from 'next/navigation';
 import { Suspense } from 'react';
 import { PageHeader } from '@/components/PageHeader';
 import { Prose } from '@/components/Prose';
-import { getPost, getPosts, safe } from '@/lib/api';
+import { getPost, getPosts, PLACEHOLDER_SLUG, safe } from '@/lib/api';
 import { formatDate } from '@/lib/format';
 
 export async function generateStaticParams() {
   const posts = await safe(getPosts, []);
-  return posts.length ? posts.map((p) => ({ slug: p.slug })) : [{ slug: '__placeholder__' }];
+  return posts.length ? posts.map((p) => ({ slug: p.slug })) : [{ slug: PLACEHOLDER_SLUG }];
 }
 
 export async function generateMetadata({ params }: PageProps<'/blog/[slug]'>): Promise<Metadata> {
@@ -19,6 +19,7 @@ export async function generateMetadata({ params }: PageProps<'/blog/[slug]'>): P
 
 async function Article({ params }: { params: PageProps<'/blog/[slug]'>['params'] }) {
   const { slug } = await params;
+  if (slug === PLACEHOLDER_SLUG) notFound();
   const post = await getPost(slug);
   if (!post) notFound();
   return (
