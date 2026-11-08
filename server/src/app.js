@@ -45,3 +45,7 @@ export function createApp() {
   app.use(errorHandler);
   return app;
 }
+
+// Vercel's Express preset uses this file as the function entry and needs a default-exported app.
+// Creating it does no I/O: the DB connects on the first /api request.
+export default createApp();

@@ -73,7 +73,7 @@ Tests: `cd server && npm test` (integration tests against an in-memory MongoDB).
    - reCAPTCHA v3 keys: `RECAPTCHA_SECRET` (server), `RECAPTCHA_SITE_KEY` (client).
    - Maps Embed API key (optional): `GOOGLE_MAPS_API_KEY` (client).
    - Gmail: `GMAIL_USER` plus OAuth2 refresh token (or an app password).
-4. **Deploy `server/`** to Vercel (root directory `server`, uses `api/index.js` + `vercel.json`).
+4. **Deploy `server/`** to Vercel (root directory `server`; Vercel's Express preset serves the default export of `src/app.js`).
    Set every variable from `server/.env.example`; `CLIENT_ORIGINS` = the site URL.
 5. **Deploy `client/`** to Vercel (root directory `client`). Set `API_URL` to the server URL, `SITE_URL` to the site URL, and
    the other variables from `client/.env.example`. The API must be reachable at build time; pages are prerendered
