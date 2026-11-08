@@ -1,4 +1,4 @@
-import sanitizeHtml from 'sanitize-html';
+import sanitizeHtml from '../vendor/sanitize-html.js';
 
 // Rich-text content edited in the admin is stored sanitised; the client renders it as HTML.
 export function cleanHtml(dirty) {
