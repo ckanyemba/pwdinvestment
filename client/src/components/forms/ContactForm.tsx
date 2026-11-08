@@ -7,11 +7,11 @@ import { FormStatus, Honeypot, TextArea, TextField } from './fields';
 
 type Status = 'idle' | 'sending' | 'sent' | 'error';
 
-export function ContactForm() {
+export function ContactForm({ recaptchaSiteKey }: { recaptchaSiteKey?: string }) {
   const [status, setStatus] = useState<Status>('idle');
   const [error, setError] = useState<string>();
   const [fieldErrors, setFieldErrors] = useState<Record<string, string>>({});
-  useEffect(preloadRecaptcha, []);
+  useEffect(() => preloadRecaptcha(recaptchaSiteKey), [recaptchaSiteKey]);
 
   async function onSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -20,7 +20,7 @@ export function ContactForm() {
     setStatus('sending');
     setFieldErrors({});
     try {
-      const recaptchaToken = await getRecaptchaToken('contact');
+      const recaptchaToken = await getRecaptchaToken(recaptchaSiteKey, 'contact');
       await apiFetch('/contact', { method: 'POST', json: { ...data, recaptchaToken } });
       form.reset();
       setStatus('sent');
@@ -59,14 +59,14 @@ export function ContactForm() {
         <button type="submit" className="btn btn-primary" disabled={status === 'sending'}>
           {status === 'sending' ? 'Sending…' : 'Send message'}
         </button>
-        <RecaptchaNotice />
+        <RecaptchaNotice siteKey={recaptchaSiteKey} />
       </div>
     </form>
   );
 }
 
-export function RecaptchaNotice() {
-  if (!process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY) return null;
+export function RecaptchaNotice({ siteKey }: { siteKey?: string }) {
+  if (!siteKey) return null;
   return (
     <p className="mt-3 text-xs text-slate-500">
       This site is protected by reCAPTCHA and the Google{' '}

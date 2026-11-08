@@ -69,14 +69,14 @@ Tests: `cd server && npm test` (integration tests against an in-memory MongoDB).
    the API's `/media`.
 3. **Google Cloud console**
    - OAuth 2.0 *Web* client: authorised JavaScript origin = the site URL. The client ID goes in
-     `GOOGLE_CLIENT_ID` (server) and `NEXT_PUBLIC_GOOGLE_CLIENT_ID` (client).
-   - reCAPTCHA v3 keys: `RECAPTCHA_SECRET` (server), `NEXT_PUBLIC_RECAPTCHA_SITE_KEY` (client).
-   - Maps Embed API key (optional): `NEXT_PUBLIC_GOOGLE_MAPS_API_KEY`.
+     `GOOGLE_CLIENT_ID` (server) and `GOOGLE_CLIENT_ID` (client).
+   - reCAPTCHA v3 keys: `RECAPTCHA_SECRET` (server), `RECAPTCHA_SITE_KEY` (client).
+   - Maps Embed API key (optional): `GOOGLE_MAPS_API_KEY` (client).
    - Gmail: `GMAIL_USER` plus OAuth2 refresh token (or an app password).
 4. **Deploy `server/`** to Vercel (root directory `server`, uses `api/index.js` + `vercel.json`).
    Set every variable from `server/.env.example`; `CLIENT_ORIGINS` = the site URL.
-5. **Deploy `client/`** to Vercel (root directory `client`). Set `API_URL` to the server URL and
-   the `NEXT_PUBLIC_*` variables. The API must be reachable at build time; pages are prerendered
+5. **Deploy `client/`** to Vercel (root directory `client`). Set `API_URL` to the server URL, `SITE_URL` to the site URL, and
+   the other variables from `client/.env.example`. The API must be reachable at build time; pages are prerendered
    from it.
 6. Point `pmdinvestment.co.za` at the client project.
 

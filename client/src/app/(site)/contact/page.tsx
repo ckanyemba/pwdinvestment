@@ -17,7 +17,7 @@ export default async function ContactPage() {
           <h2 id="feedback" className="section-title">Send us a message</h2>
           <p className="mt-2 text-sm text-grey">We usually respond within one business day.</p>
           <div className="mt-8">
-            <ContactForm />
+            <ContactForm recaptchaSiteKey={process.env.RECAPTCHA_SITE_KEY} />
           </div>
         </section>
         <aside className="space-y-6">

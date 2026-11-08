@@ -33,11 +33,11 @@ function nest(entries: Record<string, FormDataEntryValue>) {
   return out;
 }
 
-export function EnrolmentForm() {
+export function EnrolmentForm({ recaptchaSiteKey }: { recaptchaSiteKey?: string }) {
   const [status, setStatus] = useState<Status>('idle');
   const [error, setError] = useState<string>();
   const [errors, setErrors] = useState<Record<string, string>>({});
-  useEffect(preloadRecaptcha, []);
+  useEffect(() => preloadRecaptcha(recaptchaSiteKey), [recaptchaSiteKey]);
 
   async function onSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -50,7 +50,7 @@ export function EnrolmentForm() {
     setStatus('sending');
     setErrors({});
     try {
-      const recaptchaToken = await getRecaptchaToken('enrol');
+      const recaptchaToken = await getRecaptchaToken(recaptchaSiteKey, 'enrol');
       await apiFetch('/enrolments', { method: 'POST', json: { ...data, recaptchaToken } });
       setStatus('sent');
       window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -150,7 +150,7 @@ export function EnrolmentForm() {
         <button type="submit" className="btn btn-primary" disabled={status === 'sending'}>
           {status === 'sending' ? 'Submitting…' : 'Submit enrolment'}
         </button>
-        <RecaptchaNotice />
+        <RecaptchaNotice siteKey={recaptchaSiteKey} />
       </div>
     </form>
   );

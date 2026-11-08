@@ -10,11 +10,10 @@ import { cx } from '@/lib/format';
 import type { AdminUser } from '@/lib/types';
 import { RESOURCES } from './resources';
 
-const GOOGLE_CLIENT_ID = process.env.NEXT_PUBLIC_GOOGLE_CLIENT_ID || '';
 const AdminContext = createContext<{ user: AdminUser; signOut: () => void } | null>(null);
 export const useAdmin = () => useContext(AdminContext)!;
 
-function SignIn({ onSignedIn }: { onSignedIn: (u: AdminUser) => void }) {
+function SignIn({ googleClientId, onSignedIn }: { googleClientId: string; onSignedIn: (u: AdminUser) => void }) {
   const [error, setError] = useState<string>();
   return (
     <div className="flex min-h-screen items-center justify-center bg-mist p-4">
@@ -23,7 +22,7 @@ function SignIn({ onSignedIn }: { onSignedIn: (u: AdminUser) => void }) {
         <h1 className="mt-6 text-xl font-bold">Staff sign in</h1>
         <p className="mt-2 text-sm text-grey">Use your authorised PMD Google account.</p>
         <div className="mt-6 flex justify-center">
-          {GOOGLE_CLIENT_ID ? (
+          {googleClientId ? (
             <GoogleLogin
               onSuccess={async ({ credential }) => {
                 setError(undefined);
@@ -37,7 +36,7 @@ function SignIn({ onSignedIn }: { onSignedIn: (u: AdminUser) => void }) {
               onError={() => setError('Google sign-in failed. Please try again.')}
             />
           ) : (
-            <p className="rounded bg-amber-50 p-3 text-sm text-amber-800">NEXT_PUBLIC_GOOGLE_CLIENT_ID is not configured.</p>
+            <p className="rounded bg-amber-50 p-3 text-sm text-amber-800">GOOGLE_CLIENT_ID is not configured.</p>
           )}
         </div>
         {error && (
@@ -92,7 +91,7 @@ function Sidebar({ user, signOut }: { user: AdminUser; signOut: () => void }) {
   );
 }
 
-export function AdminShell({ children }: { children: ReactNode }) {
+export function AdminShell({ googleClientId, children }: { googleClientId: string; children: ReactNode }) {
   const [user, setUser] = useState<AdminUser | null>(null);
   const [checking, setChecking] = useState(true);
 
@@ -113,7 +112,7 @@ export function AdminShell({ children }: { children: ReactNode }) {
   if (checking) return <div className="flex min-h-screen items-center justify-center text-grey">Loading…</div>;
 
   return (
-    <GoogleOAuthProvider clientId={GOOGLE_CLIENT_ID}>
+    <GoogleOAuthProvider clientId={googleClientId}>
       {user ? (
         <AdminContext.Provider value={{ user, signOut }}>
           <div className="flex min-h-screen flex-col bg-mist md:flex-row">
@@ -122,7 +121,7 @@ export function AdminShell({ children }: { children: ReactNode }) {
           </div>
         </AdminContext.Provider>
       ) : (
-        <SignIn onSignedIn={setUser} />
+        <SignIn googleClientId={googleClientId} onSignedIn={setUser} />
       )}
     </GoogleOAuthProvider>
   );

@@ -5,7 +5,7 @@ import './globals.css';
 const montserrat = Montserrat({ variable: '--font-montserrat', subsets: ['latin'], weight: ['500', '600', '700'] });
 const openSans = Open_Sans({ variable: '--font-open-sans', subsets: ['latin'] });
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://pmdinvestment.co.za';
+const SITE_URL = process.env.SITE_URL || 'https://pmdinvestment.co.za';
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
