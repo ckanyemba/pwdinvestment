@@ -1,0 +1,146 @@
+@import "tailwindcss";
+
+/* PMD brand, taken from the logo: green #2FB560, navy #2A4A5C, grey #747478 */
+@theme {
+  --color-green: #2fb560;
+  --color-green-dark: #24914c;
+  --color-navy: #142440;
+  --color-navy-dark: #0d1a30;
+  --color-slate-brand: #2a4a5c;
+  --color-grey: #747478;
+  --color-mist: #f2f4f7;
+  --font-sans: var(--font-open-sans), system-ui, sans-serif;
+  --font-heading: var(--font-montserrat), system-ui, sans-serif;
+}
+
+@utility container-pmd {
+  margin-inline: auto;
+  width: 100%;
+  max-width: 1200px;
+  padding-inline: 1rem;
+  @media (width >= 768px) {
+    padding-inline: 1.5rem;
+  }
+}
+
+@utility font-heading {
+  font-family: var(--font-heading);
+}
+
+@layer base {
+  body {
+    @apply bg-white text-slate-700 antialiased;
+  }
+  h1, h2, h3, h4, h5 {
+    @apply font-heading text-navy;
+  }
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-green;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded px-5 py-3 text-sm font-bold uppercase tracking-wide transition-colors disabled:cursor-not-allowed disabled:opacity-60;
+  }
+  .btn-primary {
+    @apply bg-green text-white hover:bg-green-dark;
+  }
+  .btn-navy {
+    @apply bg-navy text-white hover:bg-navy-dark;
+  }
+  .btn-outline-light {
+    @apply border-2 border-white/80 text-white hover:bg-white hover:text-navy;
+  }
+  .btn-ghost {
+    @apply border border-slate-300 bg-white text-navy hover:bg-mist;
+  }
+  .btn-sm {
+    @apply px-3 py-1.5 text-xs;
+  }
+  .input {
+    @apply w-full rounded border border-slate-300 bg-white px-3 py-2.5 text-sm text-slate-800 shadow-sm placeholder:text-slate-400 focus:border-green focus:outline-none focus:ring-2 focus:ring-green/30 aria-[invalid=true]:border-red-500;
+  }
+  .card {
+    @apply rounded-lg bg-white p-6 shadow-sm ring-1 ring-slate-200;
+  }
+  .section-title {
+    @apply font-heading text-3xl font-bold text-navy md:text-4xl;
+  }
+}
+
+/* Typography for CMS / migrated WordPress HTML */
+.prose-pmd {
+  @apply max-w-none text-[16px] leading-relaxed text-slate-700;
+}
+.prose-pmd > * + * {
+  @apply mt-4;
+}
+.prose-pmd h1, .prose-pmd h2 {
+  @apply mt-10 text-2xl font-bold md:text-3xl;
+}
+.prose-pmd h3 {
+  @apply mt-8 text-xl font-bold;
+}
+.prose-pmd h4, .prose-pmd h5 {
+  @apply mt-6 text-lg font-semibold;
+}
+.prose-pmd a {
+  @apply font-semibold text-green underline-offset-2 hover:underline;
+}
+.prose-pmd a.btn {
+  @apply bg-green text-white no-underline hover:bg-green-dark;
+}
+.prose-pmd strong {
+  @apply text-navy;
+}
+.prose-pmd ul {
+  @apply list-disc pl-6;
+}
+.prose-pmd ol {
+  @apply list-decimal pl-6;
+}
+.prose-pmd li + li {
+  @apply mt-1.5;
+}
+.prose-pmd blockquote {
+  @apply border-l-4 border-green bg-mist px-5 py-4 italic text-navy;
+}
+.prose-pmd img {
+  @apply h-auto max-w-full rounded-md;
+}
+.prose-pmd p > img:first-child {
+  @apply mb-3 md:float-right md:ml-6 md:max-w-[45%];
+}
+.prose-pmd figure img {
+  @apply w-full max-w-2xl;
+}
+.prose-pmd table {
+  @apply block w-full overflow-x-auto text-sm md:table;
+}
+.prose-pmd td, .prose-pmd th {
+  @apply border border-slate-200 p-3 text-center align-middle;
+}
+.prose-pmd td img {
+  @apply mx-auto max-h-24 w-auto;
+}
+.prose-pmd details {
+  @apply rounded border border-slate-200 p-4;
+}
+.prose-pmd summary {
+  @apply cursor-pointer font-semibold text-navy;
+}
+.prose-pmd .card {
+  @apply my-4;
+}
+.prose-pmd .cta {
+  @apply flex flex-col items-start gap-4 rounded-lg bg-navy p-6 text-white sm:flex-row sm:items-center sm:justify-between;
+}
+.prose-pmd .cta h3 {
+  @apply m-0 text-white;
+}
+.prose-pmd::after {
+  content: "";
+  display: table;
+  clear: both;
+}

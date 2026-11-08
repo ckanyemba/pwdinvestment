@@ -1,0 +1,415 @@
+{
+  "site": {
+    "name": "PMD Investment Academy",
+    "tagline": "Financial Markets Education (Learn to trade Forex, Commodities, Crypto-currencies, Shares and many more)",
+    "address": [
+      "58 Marshall Street",
+      "Office 412, The Business Place",
+      "Marshalltown",
+      "Johannesburg",
+      "2107"
+    ],
+    "phone": "011 492 0567",
+    "fax": "011 492 0444",
+    "emails": {
+      "general": "info@pmdinvestment.co.za",
+      "admin": "admin@pmdinvestment.co.za",
+      "finance": "finance@pmdinvestment.co.za"
+    },
+    "social": {
+      "facebook": "https://www.facebook.com/pmdinvestment/",
+      "twitter": "https://twitter.com/pmdinvestment",
+      "linkedin": "https://www.linkedin.com/company/pmd-investment-solutions"
+    },
+    "contacts": [
+      {
+        "name": "Head Office",
+        "role": "Head of communications",
+        "email": "info@pmdinvestment.co.za",
+        "photo": "{{media:2019/01/72dpi_Instagram_Colour.jpg}}"
+      },
+      {
+        "name": "Precious N",
+        "role": "Chief Operations Officer",
+        "email": "admin@pmdinvestment.co.za",
+        "photo": null
+      }
+    ],
+    "map": {
+      "query": "PMD Investment Solutions Pty Ltd, 58 Marshall Street, Marshalltown, Johannesburg",
+      "lat": -26.2081533,
+      "lng": 28.0354943
+    }
+  },
+  "home": {
+    "slides": [
+      {
+        "title": "Never depend on a single income",
+        "text": "Don't work for money — employ it and make it work for you.",
+        "cta": {
+          "label": "Learn Fx",
+          "href": "/forex"
+        },
+        "image": "{{media:2017/02/money_making_in2fout_tray_istock_000015692225_small.jpg}}"
+      },
+      {
+        "title": "Best Skills Development Training",
+        "text": "An investment in knowledge pays the best interest. Be shaped and transformed.",
+        "cta": {
+          "label": "Enrol now",
+          "href": "/enrol"
+        },
+        "image": "{{media:revslider/main_slider4/Layer-758_01.jpg}}"
+      },
+      {
+        "title": "Profitable Opportunities",
+        "text": "Rule 1: Never lose money. Rule 2: Never forget rule #1.",
+        "cta": {
+          "label": "About us",
+          "href": "/about"
+        },
+        "image": "{{media:2017/02/shutterstock_358291706_2_inflation.jpg}}"
+      },
+      {
+        "title": "ASK: Always Seek Knowledge",
+        "text": "Everything is hard before becoming easy.",
+        "cta": {
+          "label": "Skills",
+          "href": "/conferencing"
+        },
+        "image": "{{media:2017/01/pmd-top3.jpg}}"
+      },
+      {
+        "title": "Logic Wins — Impulse Kills",
+        "text": "Never let a winner turn into a loser.",
+        "cta": {
+          "label": "Wall St",
+          "href": "/share-market"
+        },
+        "image": "{{media:2016/01/MARKET.jpg}}"
+      }
+    ],
+    "services": [
+      {
+        "title": "Forex Trading",
+        "href": "/forex",
+        "image": "{{media:2015/12/forex-pmd.png}}",
+        "text": "The retail Forex trading industry is growing every day with the advent of Forex trading platforms and their ease of accessibility on the internet."
+      },
+      {
+        "title": "Share Market Trading",
+        "href": "/share-market",
+        "image": "{{media:2015/12/bull-3.jpg}}",
+        "text": "Ask any layman about share market investing, and they will tell you that they don't know about stock trading."
+      },
+      {
+        "title": "Conferencing",
+        "href": "/conferencing",
+        "image": "{{media:2017/01/pmd-top8.jpg}}",
+        "text": "We specialise in Corporate Training in Communication and Management Skills and Employment Equity Training and Consulting."
+      }
+    ],
+    "quote": "Money is always eager and ready to work for someone who is ready to employ it.",
+    "quoteImage": null,
+    "industries": [
+      {
+        "title": "Cryptocurrency",
+        "href": "/crypto-currency",
+        "image": "{{media:2015/12/b-coins.jpg}}"
+      },
+      {
+        "title": "Broker insight",
+        "href": "/how-to-open-a-trading-account",
+        "image": "{{media:2015/12/online.jpg}}"
+      },
+      {
+        "title": "Property investment",
+        "href": "https://dubeconstruction.co.za",
+        "image": null
+      }
+    ],
+    "stats": [
+      "Over 10 000 subscribers",
+      "16 workers employed",
+      "Financial Markets Trading Course",
+      "Top customer rating",
+      "Back up and support"
+    ],
+    "whyUs": [
+      {
+        "title": "Our Research Team",
+        "text": "Receive premium signals from top-tier financial analysts & market researchers."
+      },
+      {
+        "title": "Powerful Trading Tools",
+        "text": "Take advantage of advanced order types and multiple charting features, including technical indicators and more."
+      },
+      {
+        "title": "Lightning Fast Executions",
+        "text": "Our stock trading software features direct access technology. Send orders instantly, view real-time market data and more."
+      }
+    ],
+    "partners": [
+      {
+        "name": "JP Markets MT4",
+        "href": "https://jpmarkets.co.za/downloads/JPM_MT4-setup.exe",
+        "image": "{{media:2018/07/mt4.png-download-e1530967291835.jpg}}"
+      },
+      {
+        "name": "CloudTrade (iOS)",
+        "href": "https://itunes.apple.com/za/app/cloudtrade/id1022781350?mt=8",
+        "image": "{{media:2016/02/apple-store-e1530968613376.png}}"
+      },
+      {
+        "name": "FinSA Mobile (Android)",
+        "href": "https://play.google.com/store/apps/details?id=com.finsa.finsamobile",
+        "image": "{{media:2016/02/android-1.png}}"
+      },
+      {
+        "name": "AnyDesk",
+        "href": "https://download.anydesk.com/AnyDesk.exe",
+        "image": "{{media:2018/07/anydesk-e1530967682508.png}}"
+      },
+      {
+        "name": "Partner",
+        "href": null,
+        "image": "{{media:2016/02/dmasa.png}}"
+      },
+      {
+        "name": "Partner",
+        "href": null,
+        "image": "{{media:2016/02/seta.png}}"
+      }
+    ],
+    "liveAccountUrl": "https://www.jpmarkets.co.za/live-trading-account/?link_id=ikawa16342&referral_id=0026576"
+  },
+  "pages": [
+    {
+      "slug": "about",
+      "title": "Overview",
+      "content": "<h3>Company overview</h3>\nPmd Investment Academy is a proudly black owned company which was founded in November of 2013. It's primary focus is to be South Africa's leading Financial Markets and Conferencing Training institute. Having realized that South Africa and the continent is heading to the Fourth industrial revolution where technology and the internet is dominating the space, we felt a need to educate the public on how to take advantage of the advent of computers and make money in the comfort of their homes or workplace by taking advantage of the Financial System. This is where you trade Financial instruments online such as Shares, Currencies (better known as Forex), Commodities, Options, Cryptocurrencies and many more. We were established to develop an unskilled workforce into a skilled workforce by providing educational training as a tool to unlock analytical thinking and problem solving. We provide programs to bridge the gap between the skilled and unskilled individuals through knowledge. We will be providing a powerful analytical software together with a 5 module complete study program to help speculators,traders, dealers predict the market for financial gain and give private investors and traders the necessary data to maximize profit and reduce risk.\n<blockquote>Pmd Investment Academy continues to grow every day thanks to the confidence our clients have in us. We cover many industries such as financial markets, business services and soft skills training in our conferencing sector.</blockquote>\n<h3>Why choose our Academy</h3>\nThe answer is simple we chose to be different in the sense that we do not sell softwares, but instead teaches you how to make use of them as the framework is already developed, we believe in the quote that says ''Give a man a fish and you feed him for a day, but teach a man to Fish and you feed him for a lifetime'' Pmd Investments is committed to perpetuate improvement in the provision of quality services to every clients by innovation and creativity.\n<figure><img src=\"{{media:revslider/fullscreen-main-slider/slider_2.jpg}}\" alt=\"\" /></figure>\n<h3>Vision</h3>\nTo endeavor and attain exceptional excellence.\n<h3>Our Culture</h3>\nWe believe in Christian Values. Ecclesiastes 11: 1-9\n<h3>Our Mission</h3>\nTo make sure the Financial Market is understood, Its risks and benefits and curb the scourge of scams associated with lack of knowledge and attain exceptional excellence.\n<h3>Vision Statement</h3>\nMend the nets and the catch will be great. This simply means acquire the right education in whatever you do for the results to be better.\n<h2>CAREERS</h2>\n<img src=\"{{media:2016/01/call-centre.jpg}}\" alt=\"\" />\n<p>We recognise that our people are our most valuable asset and that our success is due to the dedication and commitment of our staff. We seek to attract and retain the best people by offering a competitive salary and benefits package. Employees are supported throughout their career with a full programme of training, mentoring, management development and on-the-job support. In this supportive environment, every member of the <strong>Pmd Investment Academy</strong> team is facilitated to reach his or her full potential by incorporating individual requirements into our annual training plan – making learning fast, dynamic and rewarding for everyone.</p>\n<p>It also means that our people are empowered with the necessary skills to drive the company towards its business goals. Each staff member is reviewed periodically to asses performance, training and individual achievements.</p>\n<p>This together with their personal objectives, then forms the basis of their training and development plan for the period ahead. Constant ambition to always work together in order to achieve a common goal by being professional by always finding solutions.</p>\n<figure><img src=\"{{media:2016/01/pic5-1024x768.jpg}}\" alt=\"\" /></figure>\n<h2>STRATEGY</h2>\n<p><strong>Team Work</strong>\nConstant ambition to always work together in order to achive a common goal by beign professional by always finding solutions</p>\n<p><strong>Passion</strong>\nHaving driven motivation and willingness to succeed and have integrity to the team ,company and our clients</p>\n<p><strong>People Focus</strong>\nAlways communicating well with our staff members which enables them to grow and develop them to be better</p>\n<p><strong>Mutual Respect</strong>\nAlways Respect ourselves ,our staff members and clients</p>\n<p><strong>Accountable</strong>\nTo be accountable ,responsible and transparent for all clients to see .</p>\n<figure><img src=\"{{media:2015/12/robben-island-1.gif}}\" alt=\"Government\" /></figure>\n<figure><img src=\"{{media:2015/12/limpopo-province.jpg}}\" alt=\"\" /></figure>\n<figure><img src=\"{{media:2015/12/Buffalo-City-Metro.gif}}\" alt=\"\" /></figure>\n<figure><img src=\"{{media:2015/12/NGWATHELOGO.jpg}}\" alt=\"\" /></figure>\n<figure><img src=\"{{media:2015/12/minstry-of-health-social-services-ad95f091e4.jpg}}\" alt=\"Namibia\" /></figure>\n<h3>Looking for a First-Class Conference Organiser?</h3><a href=\"/contact\">contact us</a>",
+      "excerpt": "Company overview Pmd Investment Academy is a proudly black owned company which was founded in November of 2013. It's primary focus is to be South Africa's leading Financial…",
+      "heroImage": null,
+      "seoTitle": null,
+      "seoDescription": null,
+      "navOrder": 7,
+      "legacyId": 9,
+      "publishedAt": "2015-12-15 07:37:33",
+      "updatedAt": "2019-11-22 00:48:04"
+    },
+    {
+      "slug": "forex",
+      "title": "Forex Trading",
+      "content": "<h3><strong>What is the Forex market?</strong></h3>\n<strong> What is Forex? – The basics.</strong>\n<p><img src=\"{{media:2016/01/Forex.jpg}}\" alt=\"Forex\" /></p>\n<p>Market Analyze with Digital Moniter focus on tip of finger. Basically, the Forex market is where banks, businesses, governments, investors and traders come to exchange and speculate on currencies. The Forex market is also referred to as the ‘Fx market’, ‘Currency market’, ‘Foreign exchange currency market’ or ‘Foreign currency market’, and it is the largest and most liquid market in the world with an average daily turnover that exceeds $4 trillion.</p>\n<p>The Fx market is open 24 hours a day, 5 days a week with the most important world trading centers being located in London, New York, Tokyo, Zurich, Frankfurt, Hong Kong, Singapore, Paris, and Sydney.</p>\n<p>It should be noted that there is no central marketplace for the <u>Forex market</u>; trading is instead said to be conducted ‘over the counter’; it’s not like stocks where there is a central marketplace with all orders processed like the NYSE. Forex is a product quoted by all the major banks, and not all banks will have the exact same price. Now, the broker platforms take all theses feeds from the different banks and the quotes we see from our broker are an approximate average of them. It’s the broker who is effectively transacting the trade and taking the other side of it…they ‘make the market’ for you. When you buy a currency pair…your broker is selling it to you, not ‘another trader’</p>\n<p><strong>Who trades Forex and why?</strong></p>\n<p><strong><img src=\"{{media:2016/01/Banks.jpg}}\" alt=\"\" />Banks –</strong> The inter-bank market allows for both the majority of commercial Forex transactions and large amounts of speculative trading each day. Some large banks will trade billions of dollars, daily. Sometimes this trading is done on behalf of customers, however much is done by proprietary traders who are trading for the bank’s own account.</p>\n<p><strong>Companies –</strong> Companies need to use the foreign exchange market to pay for goods and services from foreign countries and also to sell goods or services in foreign countries. An important part of the daily Forex market activity comes from companies looking to exchange currency in order to transact in other countries.</p>\n<p><strong>Governments / Central banks –</strong> A country’s central bank can play an important role in the foreign exchange markets. They can cause an increase or decrease in the value of their nation’s currency by trying to control money supply, inflation, and (or) interest rates. They can use their substantial foreign exchange reserves to try and stabilize the market.</p>\n<p><strong><img src=\"{{media:2016/01/Forex3.jpg}}\" alt=\"Market Analyze with Digital Moniter focus on tip of finger.\" />Hedge funds –</strong> Somewhere around 70 to 90% of all foreign exchange transactions are speculative in nature. This means, the person or institutions that bought or sold the currency has no plan of actually taking delivery of the currency; instead, the transaction was executed with sole intention of speculating on the price movement of that particular currency. Retail speculators (you and I) are small cheese compared to the big hedge funds that control and speculate with billions of dollars of equity each day in the currency markets.</p>\n<p><strong>Individuals –</strong> If you have ever traveled to a different country and exchanged your money into a different currency at the airport or bank, you have already participated in the foreign currency exchange market.</p>\n<p><strong><img src=\"{{media:2016/01/iStock_12573288LG-happy-man-laptop-rock-1024x681.jpg}}\" alt=\"iStock_12573288LG-happy-man-laptop-rock\" /></strong></p>\n<p><strong>Investors –</strong> Investment firms who manage large portfolios for their clients use the Fx market to facilitate transactions in foreign securities. For example, an investment manager controlling an international equity portfolio needs to use the Forex market to purchase and sell several currency pairs in order to pay for foreign securities they want to purchase.</p>\n<p><strong>Retail Forex traders –</strong> Finally, we come to retail Forex traders (you and I). The retail Forex trading industry is growing everyday with the advent of Forex trading platforms and their ease of accessibility on the internet. Retail Forex traders access the market indirectly either through a broker or a bank. There are two main types of retail Forex brokers that provide us with the ability to speculate on the currency market: brokers and dealers. Brokers work as an agent for the trader by trying to find the best price in the market and executing on behalf of the customer. For this, they charge a commission on top of the price obtained in the market. Dealers are also called market makers because they ‘make the market’ for the trader and act as the counter-party to their transactions, they quote a price they are willing to deal at and are compensated through the spread, which is the difference between the buy and sell price (more on this later</p>",
+      "excerpt": "What is the Forex market? What is Forex? – The basics. Market Analyze with Digital Moniter focus on tip of finger. Basically, the Forex market is where banks, businesses,…",
+      "heroImage": null,
+      "seoTitle": null,
+      "seoDescription": null,
+      "navOrder": 1,
+      "legacyId": 16553,
+      "publishedAt": "2016-01-11 10:49:39",
+      "updatedAt": "2019-11-22 00:58:49",
+      "navLabel": "Forex"
+    },
+    {
+      "slug": "disclaimer",
+      "title": "Disclaimer",
+      "content": "<p><strong>High Risk Investment</strong></p>\n<p>Trading foreign exchange on margin carries a high level of risk and may not be suitable for all investors. The high degree of leverage can work against you as well as for you. Before deciding to trade foreign exchange you should carefully consider your investment objectives, level of experience, and risk appetite. The possibility exists that you could sustain a loss in excess of your initial investment. You should be aware of all the risks associated with foreign exchange trading and seek advice from an independent financial advisor if you have any doubts.</p>\n<p><strong>PMD Investment Solutions Market Opinions</strong></p>\n<p>Any opinions, news, research, analyses, prices or other information contained on this website is provided as general market commentary and does not constitute investment advice. PMD Investment Solutions will not accept liability for any loss or damage including, without limitation, to any loss of profit which may arise directly or indirectly from use of or reliance on such information.</p>\n<p><strong>Accuracy of Information</strong></p>\n<p>The content on this website is subject to change at any time without notice, and is provided for the sole purpose of assisting traders to make independent investment decisions. PMD Investment Solutions has taken reasonable measures to ensure the accuracy of the information on the website; however, it does not guarantee accuracy and will not accept liability for any loss or damage which may arise directly or indirectly from the content or from your inability to access the website, or for any delay in or failure of the transmission or the receipt of any instruction or notifications sent through this website.</p>\n<p><strong>Distribution</strong></p>\n<p>This site is not intended for distribution or use by any person in any country where such distribution or use would be contrary to local law or regulation. None of the services or investments referred to in this website are available to persons residing in any country where the provision of such services or investments would be contrary to local law or regulation. It is the responsibility of visitors to this website to ascertain the terms of and comply with any local law or regulation to which they are subject.</p>\n<p><strong>Third Party Links</strong></p>\n<p>Links to third-party sites are provided for your convenience. Such sites are not within our control and may not follow the same privacy, security, or accessibility standards as ours. PMD Investment Solutions neither endorses nor guarantees offerings of the third party providers, nor is PMD Investment Solutions responsible for the security, content or availability of third-party sites, their partners or advertisers.</p>",
+      "excerpt": "High Risk Investment Trading foreign exchange on margin carries a high level of risk and may not be suitable for all investors. The high degree of leverage can work against you as…",
+      "heroImage": null,
+      "seoTitle": null,
+      "seoDescription": null,
+      "navOrder": null,
+      "legacyId": 16557,
+      "publishedAt": "2016-01-11 10:54:04",
+      "updatedAt": "2016-02-06 16:02:51"
+    },
+    {
+      "slug": "market-related-concepts",
+      "title": "Market Related Concepts",
+      "content": "<figure><img src=\"{{media:2016/01/MARKET2.jpg}}\" alt=\"\" /></figure>\n<p><strong>GETTING FAMILIAR WITH MARKET-RELATED CONCEPTS:</strong></p>\n<p>Now that we are done with the basics, let’s move on to some terms and concepts you would frequently hear with respect to the stock markets.</p>\n<p><strong>WHAT ARE DIVIDENDS?</strong></p>\n<p>As we learned earlier, a share is a portion of the company. When the company makes profits, you often receive a part of it. This is the idea behind dividends. Every year, companies distribute a small amount of profits to investors as dividends. This is the primary source of income for long-term shareholders – those who don’t sell the stock for years together.</p>\n<p><strong>WHAT IS MARKET CAPITALIZATION?</strong></p>\n<p><img src=\"{{media:2016/01/market1-470x320.jpg}}\" alt=\"market1-470x320\" /></p>\n<p>Different companies issue varied amounts of shares when they get listed. The value of one share also differs from that of another company’s stock. Market capitalization smoothens out these differences. It is the market stock price multiplied by the total number of shares held by the public. It, thus, reflects the total market value of a stock taking into consideration both the size and the price of the stock. For example, if a stock is priced at Rands. 50 per share, and there are 1,00,000 shares in the hands of public investors, then its market capitalization stands at Rands. 50,00,000.</p>\n<p>Market capitalization matters when stacking stocks into different indices. It also decides the weight age of a stock in the index. This means, bigger the company’s market value, the more its price fluctuations affect the value of the index.</p>\n<p><strong>WHAT ARE BULL AND BEAR MARKETS?</strong><br /><p>Markets are often described as ‘bull’ or ‘bear’ markets. These names have been derived from the manner in which the animals attack their opponents. A bull thrusts its horns up into the air, and a bear swipes its paws down. These actions are metaphors for the movement of a market: if stock prices trend upwards, it is considered a bull market; if the trend is downwards, it is considered a bear market.</p><br />The supply and demand for securities largely determine whether the market is in the bull or bear phase. Forces like investor psychology, government involvement in the economy and changes i<br /><p><img src=\"{{media:2016/01/market2.jpg}}\" alt=\"market2\" /></p><br />n economic activity also drive the market up or down. These combine to make investors bid higher or lower prices for stocks.</p>\n<p><strong>WHAT IS MARGIN TRADING?</strong></p>\n<p>Many traders trade on the stock market using borrowed funds or securities. This is called margin trading. It is almost like buying securities on credit. Margin trading can lead to greater returns, but can also be very risky. While it lets you actively seize market opportunities, it also subjects you to a number of unique risks such as interest payments charged for the borrowed money.</p>\n<p><strong>WHAT ARE PRICE-TARGETS AND STOP-LOSS TARGETS?</strong></p>\n<p>As an investor, to maximize your profits, you need to get your pricing right – both when it comes to buying and selling. However, sometimes, prices fluctuate more than expected. So, it can become a little difficult to gauge whether to trade now or wait a little more. This is where stock recommendations help.</p>\n<p><img src=\"{{media:2016/01/market3-530x384.jpg}}\" alt=\"market3-530x384\" /></p>\n<p>Analysts put out price targets and stop-loss measures, which let you know how long you should hold a stock. A price target indicates that the price of share is unlikely to climb above the level. So, once the share price touches the target, you may look to sell it and pocket your profits. A stop loss, meanwhile, acts as a target on the lower end. It lets you know when to sell before the stock falls further and worsens your loss.</p>",
+      "excerpt": "GETTING FAMILIAR WITH MARKET-RELATED CONCEPTS: Now that we are done with the basics, let’s move on to some terms and concepts you would frequently hear with respect to the stock…",
+      "heroImage": null,
+      "seoTitle": null,
+      "seoDescription": null,
+      "navOrder": null,
+      "legacyId": 16570,
+      "publishedAt": "2016-01-11 11:05:49",
+      "updatedAt": "2019-11-22 03:56:49"
+    },
+    {
+      "slug": "stock-market-faqs",
+      "title": "Stock Market FAQs",
+      "content": "<p><img src=\"{{media:2016/01/SouthAfrica-JohannesburgStockExchange-SJE.jpg}}\" alt=\"SouthAfrica-JohannesburgStockExchange-SJE\" /><strong>STOCK MARKET FREQUENTLY ASKED QUESTIONS</strong></p>\n<p>Have some more questions about the stock market? Here are answers to some common questions:</p>\n<p><strong>WHY WOULD I CHOOSE STOCKS?</strong></p>\n<p>Stocks are one of the most effective tools for building wealth, as stocks are a share of ownership of a company. You thus have great potential to receive monetary benefits when you own stock shares. Owning stocks of fundamentally strong companies simply lets your money work harder for you since they appreciate in value over a period of time while also offering rich dividends on a periodic basis.</p>\n<p><strong>WHAT INSTRUMENTS ARE TRADED IN THE STOCK MARKETS?</strong>There are various types of instruments traded in the stock market. They include shares, mutual funds, IPOs, futures and options.</p>\n<p><strong>WHERE DO I BUY STOCKS?</strong>Stock trading happens on stock exchanges. However, you cannot buy directly at the exchange. To buy stocks, you need to find a suitable broker who will understand your needs and buy stocks on your behalf. You can think of them as agents who will conduct transactions for you without actually owning any of the securities themselves. In exchange for facilitating or executing a trade, brokers will charge you a commission.<img src=\"{{media:2016/01/stock1-600x240.jpg}}\" alt=\"stock1-600x240\" /></p>\n<p><strong>WHERE DO I FIND STOCK RELATED INFORMATION?</strong></p>\n<p>Some of the most accessible avenues to get stock information are the internet, business news channels and print media. You could alternatively access the JSE  website and get all the information that you wanted within a matter of seconds.</p>\n<p><strong>WHAT ARE ADVANCES AND DECLINES?</strong></p>\n<p>Advances and declines give you an indication of how the overall market has performed. You get a good overview of the general market direction. As the name suggest ‘advances’ inform you how the market has progressed. In contrast, ‘declines’ signal if the market has not performed as per expectations. The Advance-Decline ratio is a technical analysis tool that indicates market movement. The ratio is calculated using the formula:</p>\n<p><img src=\"{{media:2016/01/stock2.jpg}}\" alt=\"stock2\" /></p>\n<ul>\n \t<li>Generally, it is seen that in bullish markets, the number of stocks that advance is more than the ones that declined; the converse holds true in a bearish market. The indicator – market breadth – is used to gauge the number of stocks advancing and declining for the day.</li>\n \t<li>‘Remains unchanged’ is a term used if the market scenario shows no advancement or decline compared to the earlier day.</li>\n \t<li>Advances and declines are calculated from the previous day’s closing results. However, a market with an advance-decline ratio that is significantly down or up may have a hard time reversing out of that direction the next day.</li>\n</ul>\n<strong>WHAT ARE STOCK RECOMMENDATIONS?</strong>\n<p>You cannot invest without conducting research. Often, many analysts and brokerage firms undertake their own stock market research keeping in mind the economy, industries, currency valuation, and so on. They often use public data from institutions like the Reserve Bank  speak to experts as part of their research. This is not easily possible for retail investors. As a result, findings of such research are extensively followed by investors, which also give a buy or sell recommendation for specific stocks.</p>\n<p><strong>HOW CAN YOU QUALIFY THE MARKET AS BULL OR BEAR?</strong></p>\n<p>Bull and bear markets signify relatively long-term movements of significant proportion. Hence, these runs can be gauged only when the market has been moving in its current direction (by about 20% of its value) for a sustained period. One does not consider small, short-term movements that last for a few days, as they may only indicate corrections or short-lived movements.</p>\n<p><strong>WHAT IS BOTTOMING OUT?</strong></p>\n<p>Stock prices move in trends – an upward and a lower trend. During periods of bear markets, prices keep falling. However, there will come a time when the market starts to look cheap. This is when it starts to rise again as people start buying slowly. This phenomenon when the market free-fall ends and the rise begins is called bottoming out.</p>\n<p>Similarly, on the higher end, there will come a point when too much buying has made the stock costly. Traders then start selling in droves to book profits. So, the price does not rise beyond this level. This is called ‘peaking’.</p>\n<p><img src=\"{{media:2016/01/stock3-480x300.jpg}}\" alt=\"stock3-480x300\" /></p>\n<p><strong>WHAT ARE THE VARIOUS TYPES OF THE RISKS ONCE I START TRADING?</strong></p>\n<p>This is the risk of investing in the stock market in general. It refers to a chance that a security’s value might decline. Although a particular company may be doing poorly, the value of its stock can go up because the stock market value is collectively going up. Conversely, your company may be doing very well, but the value of the stock might drop because of negative factors like inflation, rising interest rates, political instability etc that are effecting the whole market. All stocks are affected by market risk.</p>\n<p><img src=\"{{media:2016/01/stock4.jpg}}\" alt=\"stock4\" /></p>\n<p><strong>Industry Risk</strong></p>\n<p>This is a risk that affects all companies in a particular industry. This is because the companies in an industry may work in a similar fashion. This exposes them to certain kinds of risk unique to the industry.</p>\n<p><strong>Regulatory Risk</strong></p>\n<p>Virtually every company is subject to some sort of regulation. It refers to the risk that the government will pass new laws or implement new regulations that will dramatically affect a business.</p>\n<p><strong>Business Risk</strong></p>\n<p>These are the risks unique to an individual company. It refers to the uncertainty regarding the organization’s ability to conduct its business. Products, strategies, management, labor force, market share, etc. are among the key factors investors consider in evaluating the value of a specific company.</p>",
+      "excerpt": "STOCK MARKET FREQUENTLY ASKED QUESTIONS Have some more questions about the stock market? Here are answers to some common questions: WHY WOULD I CHOOSE STOCKS? Stocks are one of…",
+      "heroImage": null,
+      "seoTitle": null,
+      "seoDescription": null,
+      "navOrder": null,
+      "legacyId": 16572,
+      "publishedAt": "2016-01-11 11:06:55",
+      "updatedAt": "2019-11-22 01:11:49"
+    },
+    {
+      "slug": "how-to-open-a-trading-account",
+      "title": "How to Open a Trading Account",
+      "content": "<figure><img src=\"{{media:2016/01/ts-mobile.jpg}}\" alt=\"\" /></figure>\n<p><strong>Mobile Trader</strong></p>\n<figure><img src=\"{{media:2016/01/meta-trader-4.jpg}}\" alt=\"\" /></figure>\n<p><strong>MetaTrader 4</strong></p>\n<figure><img src=\"{{media:2016/01/copy.png}}\" alt=\"\" /></figure>\n<p><strong>CopyKat </strong><strong>Trading </strong></p>\n<figure><img src=\"{{media:2016/01/web-trader.jpg}}\" alt=\"\" /></figure>\n<p><strong>Web Trader</strong></p>\n<h2>A Brief Background On PMD's Trading Portfolio</h2>\n<p><img src=\"{{media:2019/09/pmd-broker.jpg}}\" alt=\"\" />Pmd Investment Academy is an Introducing Broker and a Business Referrer to Financial Services Providers (FSP) regulated Brokers. We have taken this initiative so that there is no market abuse from both traders and brokers, secondly for consumer awareness and dispute resolution mechanisms. All our current associates are proudly South African Brokers regulated under the Financial Services Board of South Africa (FSB)</p>\n<p>Since 2000, the financial market trading have become electronic, this means, trading is conducted online. Today all you need is a trading account to invest in the stock market or Forex trading is a trading account opened with a recognised broker. Most often, stock or Forex broking firms have thousands of clients. It is not feasible to take physical orders from every client on time. So, to make this process seamless, you open a trading account. Using this account, you can place buy or sell orders either online or phone, which will automatically be directed to the exchange through the stock broker.</p>\n<h2>Here Is How You Open A Trading Account</h2>\n<p><img src=\"{{media:revslider/service_slider3/services_slider.png}}\" alt=\"\" />First, select the stock broker or firm. Ensure that the broker is good and will take your orders in a timely manner. Remember, time is of utmost importance in the stock market. Even a few minutes can change the market price of the stock. For this reason, ensure that you select a good broker. Compare brokerage rates. Every broker charges you a certain fee for processing your orders. Some may charge more, some less. Some give discounts on the basis of the amount of trades conducted. Take all this into account before opening an account. However, remember that it is not necessary to choose a broker who charges the lowest fees. Good quality brokerage services provided often may need higher-than-average charges. Next, get in touch with the brokerage firm or broker and enquire about the account opening procedure. Often, the firm would send a representative to your house with the account opening form and the Know Your Client (KYC) form Fill these two forms up. Submit along with two documents that serve as proof of your identity and address. Your application will be verified either through an in-person check or on the phone, where you will be asked to divulge your personal details. Once processed, you will be given your trading accounts details. Congrats, you will now be able to conduct trades in the stock market.</p>\n<h3>Copy Cat Trading</h3>\n<img src=\"{{media:2016/01/copy-cat.jpg}}\" alt=\"\" />Let Pmd Investment Academy help you copy the world’s best traders, we know how tough it can be to learn Forex and all the complex strategies. So we are offering our clients the possibility to copy the trades of professional traders while learning on the side. All at the click of a button!\n<ul>\n \t<li>Follow their trades and decide if you want to copy them</li>\n \t<li>Or simply copy automatically</li>\n \t<li>Every time they trade, automatically the same trades are made on your account</li>\n \t<li>When they make money – you make money! And there is no need to be by a computer!</li>\n</ul>\n<h3>Benefits Of Copy Cat Trading</h3>\n<img src=\"{{media:2019/09/copy-trading.jpg}}\" alt=\"\" />The benefits are:\n<ul>\n \t<li>Beginners become experts – just copy/paste!</li>\n \t<li>Follow the experts and learn for yourself how they trade</li>\n \t<li><i></i>Your trading is done on auto-pilot. Simply chose the provider whose trades you want to “Copy” and the system does it for you. Automatically when they trade.</li>\n \t<li><i></i>Complete privacy – your details are never shared with the signal provider</li>\n \t<li><i></i>Accounts from only R5000!</li>\n</ul>\n<h2>ALL YOU HAVE TO DO IS</h2>\n<p>1. Open an account</p>\n<p>2. Search for successful traders</p>\n<p>3. Watch or Copy their trades</p>\n<p>Trading Foreign Exchange (Forex) and Contracts for Differences (CFDs) on margin carries a high level of risk</p>\n<p><a href=\"https://www.jpmarkets.co.za/withdraw-now/\">HOW TO WITHDRAW</a></p>\n<figure><img src=\"{{media:2016/01/ts-mobile.jpg}}\" alt=\"\" /></figure>\n<p><a href=\"/enrol\">NEW TO TRADING ENROL HERE</a></p>\n<p><a href=\"https://www.jpmarkets.co.za/live-trading-account/?link_id=ikawa16342&referral_id=0026576\">OPEN LIVE ACCOUNT </a></p>\n<p><a href=\"https://copytrader.jpmarkets.co.za//memberLogin.php\">OPEN A COPY ACCOUNT</a></p>",
+      "excerpt": "Mobile Trader MetaTrader 4 CopyKat Trading Web Trader A Brief Background On PMD's Trading Portfolio Pmd Investment Academy is an Introducing Broker and a Business Referrer to…",
+      "heroImage": null,
+      "seoTitle": null,
+      "seoDescription": null,
+      "navOrder": 3,
+      "legacyId": 16575,
+      "publishedAt": "2016-01-11 11:09:14",
+      "updatedAt": "2019-11-22 02:00:56",
+      "navLabel": "Trading Account"
+    },
+    {
+      "slug": "share-market",
+      "title": "Share Market",
+      "content": "<figure><img src=\"{{media:2016/02/Indian-Share-Market-Tips-660x330.jpg}}\" alt=\"\" /></figure>\n<p><strong>HOW DOES SHARE MARKET WORK?</strong></p>\n<p>Ask any layman about the share market investing, and they will tell you that they don’t know about stock trading. Yet, the stock market is one of the largest avenues for investment. Stock market investing is often called a gamble. It would cease to be a gamble if you understood the basics of the share market.</p>\n<p><strong>HOW SHARE MARKET WORKS:</strong></p>\n<p>In the previous section, you were introduced to the different market participants and other share market basics. Let’s try to stitch these narratives together and understand how the stock market works.</p>\n<p><img src=\"{{media:2015/05/share-market1.png}}\" alt=\"share market1\" /><br /><p>A stock exchange in the platform where financial instruments like stocks and derivatives are traded. Market participants have to be registered with the stock exchange and FBS to conduct trades. This includes companies issuing shares, brokers conducting the trades, as well as traders and investors All of this is regulated by the Financial Services Board , which makes the rules of conduct.</p><br />First, a company gets listed in the primary market through an Initial Public Offering (IPO). In its offer document, it lists details about the company, the stocks being issued, and so on. During the listing, the stocks issued in the primary market are allotted to investors who have bid for the same.</p>\n<p><img src=\"{{media:2015/05/share-market2.png}}\" alt=\"share market2\" /></p>\n<p>Once listed, the stocks issued can be traded by the investors in the secondary market. This is where most of the trading happens. In this market, buyers and sellers gather to conduct transactions to make profits or cut losses.</p>\n<p>Stock brokers and brokerage firms are entities registered with the stock exchange. They act as an intermediary between you, as an investor, and the stock exchange.</p>\n<p>Your broker passes on your buy order to the exchange, which searches for a sell order for the same share. Once a seller and a buyer are fixed, a price is agreed finalized, upon which the exchange communicates to your broker that your order has been confirmed.</p>\n<p>This message is then passed on to you. Even at the broker and exchange levels, there are multiple parties involved in the communication chain like brokerage order department, exchange floor traders, and so on. However, the trading process has become electronic today. This process of matching buyers and sellers is done through computers As a result, the process can be finished within minutes.</p>\n<p><strong>HOW YOUR ORDER IS PROCESSED</strong></p>\n<p><img src=\"{{media:2015/05/share-market3.png}}\" alt=\"share market3\" /></p>\n<p>However, there are tens and thousands of investors It is impossible for all to converge in one location and conduct their trades. This is where stock brokers and brokerage firms play role. Once you place an order to buy a particular share at a said price, it is processed through your broker at the exchange. There are multiple parties involved in the process behind the scenes.</p>\n<p>Meanwhile, the exchange also confirms the details of the buyers and the sellers to ensure the parties don’t default. It then facilitates the actual transfer of ownership of shares. This process is called settlement. Earlier, it used to take weeks to settle trades.</p>\n<p>Now, this has been brought down to T+2 days. For example, if you conducted a trade today, you will get your shares deposited in your  account by the day after tomorrow ( i.e. two working day).</p>\n<p>The exchange ensures that the trade is honoured during the settlement#. Whether the seller has the required stock to sell or not, the buyer will receive his shares. If a settlement is not upheld, the sanctity of the stock market is lost, because it means trades may not be upheld.</p>\n<p>As and when trades are conducted, share prices change. This is because prices of shares – like any other goods – are dependent on the perceived value. This is reflected in the rise or fall of demand for the stock. As demand for the stock increases, there are more buy orders  This leads to an increase in the price of the stock. So when you see the price of a stock rise, even if it is marginal, it means that someone or many placed buy order (s) for the stock. Larger the volume of trade, greater the fluctuation in the stock’s price.</p>\n<p><strong>HOW TO INVEST IN SHARES:</strong></p>\n<p>Now that you have understood exactly how the stock market works, you may be wondering how to invest in the market.</p>\n<p><img src=\"{{media:2015/05/share-market4.png}}\" alt=\"share market4\" /></p>\n<p><strong>Step 1</strong></p>\n<p>First, understand your investment requirements and limitations. Your requirements should take into account the present as well as the future.</p>\n<p>The same applies to your limitations. For example, you just got a job and earn Rands 20,000 a month. Your limitation could be that you need to set aside at least Rands 10,000 for installment payments for your car, and another Rands 5,000 for your monthly expenses.</p>\n<p>This leaves aside only Rands 5,000 for investment purposes. Now, if you are a risk-averse investor, you may prefer to invest a larger portion of this amount in low-risk options like bonds and fixed deposits. This means, you have only a small portion left for stock market investing – Rands 1,000. Further, take into consideration your tax liabilities.</p>\n<p>Remember, making profits on short-term buying and selling of shares incurs capital gains tax. This is not applicable if you sell your shares after a year.</p>\n<p>So, ensure that your cash needs don’t force you to sell your shares on short-term unnecessarily. Better to take a wise well-thought decision, than attract unnecessary costs in the future.</p>\n<p><strong>Step 2</strong></p>\n<p>Once you understand your investment profile, analyse the stock market and decide your investment strategy. Find out which stocks suit your profile. If we continue the above example, with a budget of Rands 1,000, you can either choose to buy one large-cap stock or multiple small-cap stocks. If you need an additional source of income, opt for high-dividend stocks.</p>\n<p>If not, opt for growth stocks which are likely to appreciate the most in the future. Deciding the kind of stocks you wish to collect is part of your investment strategy.</p>\n<p><strong>Step 3</strong></p>\n<p>Wait for the right time. Have you ever seen a cheetah or tiger hunt? They lie low for a while waiting for their prey, and then they pounce. Exactly the same way, time is of utmost importance in the stock market. Merely getting the stock right is not enough. Your profits will be maximised only if you buy at the lowest level possible. The same applies if you are selling your shares. This needs time. Do not be impulsive.</p>\n<p><strong>Step 4</strong></p>\n<p>Conduct your trade either online or on the phone through your broker. Ensure that your broker confirms the trade and gets all the details right. Recheck the trade confirmation to avoid errors</p>\n<p><strong>Step 5</strong></p>\n<p>Monitor your portfolio regularly. The stock market is dynamic. Companies may seem profitable one moment, and not-so profitable the next due to some unforeseen factor. Ensure you regularly read about the companies you have invested in. In the case of some unfortunate situation, this will help you minimize your losses before it is too late.</p>\n<p>However, this does not mean you panic every time the stock falls. A stock’s price will fall at some point in time, because there will be some investor in the market with a shorter investment horizon than you. So, he will sell his stock and pocket whatever profits possible in that shorter time. Patience is a key virtue in the markets.</p>\n<p><img src=\"{{media:2017/02/FB_IMG_1488290875693.jpg}}\" alt=\"\" /><h4>SHARE MARKET</h4></p>\n<p><img src=\"{{media:2016/02/share-market.jpg}}\" alt=\"\" /><h4>SHARE MARKET</h4></p>\n<p><img src=\"{{media:2015/12/StockMarket.jpg}}\" alt=\"\" /><h4>SHARE MARKET</h4><p><strong> SHARE MARKET</strong></p></p>\n<p><img src=\"{{media:2016/02/share.jpeg}}\" alt=\"\" /><h4>SHARE MARKET</h4></p>",
+      "excerpt": "HOW DOES SHARE MARKET WORK? Ask any layman about the share market investing, and they will tell you that they don’t know about stock trading. Yet, the stock market is one of the…",
+      "heroImage": null,
+      "seoTitle": null,
+      "seoDescription": null,
+      "navOrder": 2,
+      "legacyId": 16751,
+      "publishedAt": "2016-02-08 14:12:47",
+      "updatedAt": "2019-11-22 01:05:13",
+      "navLabel": "Share Trading"
+    },
+    {
+      "slug": "crypto-currency",
+      "title": "Cryptocurrency",
+      "content": "<h3>What is CryptoCurrency</h3>\nCryptocurrency is a modern form of digital money. It uses cryptographic techniques to replace the need for a central issuing authority with a network or peers who are able to perform the same functions.\n<p>With our state of the art Cryptocurrency portal that shows a full overview of each investment, we have available and our highly knowledgeable and responsive staff, you can now invest in digital currency from the comfort of your own home.</p>\n<p>While we do offer investor tours to view available investment opportunities, most of our clients have been purchasing assets from us from overseas without ever actually seeing the asset itself. It is for this reason we have simplified the purchasing process so investors can purchase from the comfort of their own home, no matter where that may be</p>\n<blockquote>PMD Investment Solutions continues to grow every day thanks to the confidence our clients have in us. We cover a wide range of services such as Currency Trading, Property developments, Soft Skills training and development to private and government sector.</blockquote>\n<p>How Crypto-currencies work.</p>\n<h4>Major CryptoCurrencies</h4>\n<p>CryptoCurrencies are nothing but digital assets that are secured by the usage of Cryptography.</p>\n<p>Major CryptoCurrencies known are Bitcoin and Ethereum both of which make extensive use of cryptography some of them being to secure wallets, transactions and to validate transactions.</p>\n<p>There are two ways by which one can ‘Make money’ using Cryptocurrencies:</p>\n<h4>BENEFITS</h4>\n<p><strong>Mining:</strong> One may mine a specific Cryptocurrency to solve mathematical problems and receive rewards awarded by the network. Mining is a process by which a miner validates a transaction and records it into the Blockchain. Fees are paid by the sender of each transaction to have their transaction recorded within the Blockchain.</p>\n<p><strong>Investing:</strong> As is with any stock, Cryptocurrencies are no different. Cryptocurrencies are subject to change in value based on Supply and demand. Investing in Cryptocurrencies bear almost the same risk as stock markets given that Cryptocurrencies aren’t insured and would be subject to fluctuations, however predefined supply algorithms usually play an important role.</p>\n<h4>BLOCKCHAIN</h4>\n<p>A Blockchain is nothing but a series of compiled blocks each bearing a connection to the previous block leading all the way up to genesis block. Hence you’d literally be able to backtrack each and every transaction that occurred from day 1.</p>\n<p>The sender pays to have the transaction recorded within the blockchain without which the transaction wouldn’t be recorded and if no proof of transaction exists, the transaction effectively didn’t happen.</p>\n<p>Transactions are recorded after a miner has validated it and the remaining miners are allowed to check the validity of this record without having to mine it themselves which makes it extremely easy to check if the transaction indeed is true and did happen.</p>\n<p>Once the transaction is recorded in the block and this block is added to the Blockchain, this transaction is immutable as well since each and every person on mining has a copy of this block attached to the Blockchain and the slightest change would mean that everyone’s copy of the transaction would have to be overwritten requiring immense amount of computing power that is inaccessible to a common man.</p>\n<p>This sense of immutability provided by the Blockchain is what makes Cryptocurrencies unique and valuable.</p>\n<figure><img src=\"{{media:2015/12/bitcoin_litecoin_crypto_2016.jpg}}\" alt=\"\" /></figure>\n<h2>STRATEGY</h2>\n<p><strong>Team Work</strong>\nConstant ambition to always work together in order to achive a common goal by beign professional by always finding solutions</p>\n<p><strong>Passion</strong>\nHaving driven motivation and willingness to succeed and have integrity to the team ,company and our clients</p>\n<p><strong>People Focus</strong>\nAlways communicating well with our staff members which enables them to grow and develop them to be better</p>\n<p><strong>Mutual Respect</strong>\nAlways Respect ourselves ,our staff members and clients</p>\n<p><strong>Accountable</strong>\nTo be accountable ,responsible and transparent for all clients to see .</p>\n<h3>Call us to find out more?</h3><a href=\"/contact\">get a quote</a>",
+      "excerpt": "What is CryptoCurrency Cryptocurrency is a modern form of digital money. It uses cryptographic techniques to replace the need for a central issuing authority with a network or…",
+      "heroImage": null,
+      "seoTitle": null,
+      "seoDescription": null,
+      "navOrder": 4,
+      "legacyId": 17169,
+      "publishedAt": "2017-01-10 12:16:50",
+      "updatedAt": "2017-07-19 13:51:43",
+      "navLabel": "Crypto"
+    },
+    {
+      "slug": "education",
+      "title": "Education",
+      "content": "<h3>PMD Trainings and Events</h3><a href=\"/events\">View Calendar</a>\n<h3>Trading Course</h3>\n<blockquote>Pmd Investment Academy continues to grow every day thanks to the confidence our clients have in us. We cover many industries such as forex and stock market trading, business services and soft skills development training in our conferencing sector.</blockquote>\n<figure><img src=\"{{media:2017/03/forx.jpg}}\" alt=\"\" /></figure>\n<figure><img src=\"{{media:2017/03/learn.jpg}}\" alt=\"\" /></figure>\n<h3>Additional Services</h3>\n<table>\n<tbody>\n<tr>\n<td>Forex Signals</td>\n<td>Copy Trading</td>\n<td>Trading Strategy</td>\n</tr>\n<tr>\n<td><img src=\"{{media:2016/01/signals-150x150.png}}\" alt=\"\" /></td>\n<td><img src=\"{{media:2016/01/copy-150x150.png}}\" alt=\"\" /></td>\n<td><img src=\"{{media:2015/12/forex-pmd-150x150.png}}\" alt=\"\" /></td>\n</tr>\n</tbody>\n</table>\n<h3>Our Enrolment Forms</h3>\n<table>\n<tbody>\n<tr>\n<td>Enrollment Form</td>\n<td>Terms and Conditions</td>\n<td>Assessment Form</td>\n</tr>\n<tr>\n<td><a href=\"/downloads/enrollment-form.pdf\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"{{media:2016/01/pdf.jpg}}\" alt=\"pdf\" /></a></td>\n<td><a href=\"/downloads/terms-and-conditions.pdf\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"{{media:2016/01/pdf.jpg}}\" alt=\"pdf\" /></a></td>\n<td><a href=\"/downloads/assessment-sheet.pdf\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"{{media:2016/01/pdf.jpg}}\" alt=\"pdf\" /></a></td>\n</tr>\n</tbody>\n</table>\n<h3>Order your Trading Compendium now</h3>\n<form action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"post\" target=\"_top\"><input name=\"cmd\" type=\"hidden\" value=\"_s-xclick\" />\n<input name=\"hosted_button_id\" type=\"hidden\" value=\"V449EHVFLZ7WY\" />\n<input alt=\"PayPal - The safer, easier way to pay online!\" name=\"submit\" src=\"https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif\" type=\"image\" />\n<img src=\"https://www.paypalobjects.com/en_US/i/scr/pixel.gif\" alt=\"\" border=\"0\" /></form>\n<h3>Trading Compendium Installment Option</h3>\n<form action=\"https://www.paypal.com/cgi-bin/webscr\" method=\"post\" target=\"_top\"><input name=\"cmd\" type=\"hidden\" value=\"_s-xclick\" />\n<input name=\"hosted_button_id\" type=\"hidden\" value=\"ZYZ4ULUYMTL6A\" />\n<table>\n<tbody>\n<tr>\n<td><input name=\"on0\" type=\"hidden\" value=\"Installment Option\" />Installment Option</td>\n</tr>\n<tr>\n<td><select name=\"os0\">\n<option value=\"Option 1\">Option 1 : $50.00 USD - monthly</option>\n<option value=\"Option 2\">Option 2 : $75.00 USD - monthly</option>\n<option value=\"Option 3\">Option 3 : $100.00 USD - monthly</option>\n</select></td>\n</tr>\n</tbody>\n</table>\n<input name=\"currency_code\" type=\"hidden\" value=\"USD\" />\n<input alt=\"PayPal - The safer, easier way to pay online!\" name=\"submit\" src=\"https://www.paypalobjects.com/en_US/i/btn/btn_subscribeCC_LG.gif\" type=\"image\" />\n<img src=\"https://www.paypalobjects.com/en_US/i/scr/pixel.gif\" alt=\"\" border=\"0\" />\n<p></form></p>\n<h3>ORDER FULL TRADING COMPENDIUM NOW!</h3><a href=\"https://www.paypal.com/webapps/shoppingcart?flowlogging_id=3ce29d3e2d8e1&mfid=1521288755696_3ce29d3e2d8e1#/checkout/openButton\">Pay now</a>",
+      "excerpt": "PMD Trainings and Events View Calendar Trading Course Pmd Investment Academy continues to grow every day thanks to the confidence our clients have in us. We cover many industries…",
+      "heroImage": null,
+      "seoTitle": null,
+      "seoDescription": null,
+      "navOrder": 5,
+      "legacyId": 17530,
+      "publishedAt": "2017-03-07 13:17:32",
+      "updatedAt": "2019-11-22 01:50:03",
+      "navLabel": "Education"
+    },
+    {
+      "slug": "conferencing",
+      "title": "Conferencing",
+      "content": "<p><strong>EVENTS ON OUR INSTAGRAM</strong></p>\n<blockquote>We specialise in Corporate Training in Communication and Management Skills and Employment Equity Training and Consulting. Our training courses achieve measurable and real results. We know that if a company invests time and money in staff training, it is important that it makes difference in your financial bottom-line and in measurable job performance.</blockquote>\n<figure><img src=\"{{media:2016/01/onsite-training.jpg}}\" alt=\"\" /></figure>\n<figure><img src=\"{{media:2017/01/pmd-top8.jpg}}\" alt=\"\" /></figure>\n<h3>Why Choose Us!!</h3>\n<p><strong>OUR FACILITATORS</strong></p>\n<figure><img src=\"{{media:2016/01/info-tech.jpg}}\" alt=\"\" /></figure>\n<figure><img src=\"{{media:2016/01/office-admin-1.jpg}}\" alt=\"\" /></figure>\n<p><strong>We provide professional facilitators accredited by SETA and with dedicated administration staff ready to help you at anytime. Our Excellent hospitality and effective communication has proved to be where we are today.</strong></p>\n<p><strong>OUR VENUES</strong></p>\n<p><img src=\"{{media:revslider/main_slider4/Layer-758_01-e1574378696444.jpg}}\" alt=\"\" /><strong></p>\n<p>Our Training Facilities and venues are well structured , also wheelchair friendly. PMD Investment Solutions is fully equipped will all the resources to meet your corporate needs either in house or external. Our training courses achieve measurable and real results; we know that if a company invests time and money in staff training hence efficiency and good image of the company.</p>\n<p></strong></p>\n<p><strong></p>\n<p>We focus on developing leadership and management capability; team and personal effectiveness; persuasive communication and influence; innovation and change. This is achieved through customized training, presentations, coaching and mentoring and consulting on strategy and implementation.</p>\n<p></strong></p>\n<h3>EXPERTISE!!</h3>\n<p><strong>1.Is Your Company Accredited?</strong><br />Yes we are accredited by the services SETA<br /><strong>2.Are your courses accredited and what is the Unit Standard?</strong><br />US Units Standard<br /><strong>3.What are The NQF &amp; Credits?</strong><br />NQF 5 with 10 Credits &amp; NQF 4 with 8 Credits<br /><strong>4.Do you offer in house training &amp; what is the required number of people?</strong><br />We do offer in-house training and the minimum number is 10 delegates and Maximum number is 100 delegates.</p>\n<h3>GET OUR BOOKING FORM NOW!</h3><a href=\"/downloads/booking-form.pdf\">DOWNLOAD FORM</a>",
+      "excerpt": "EVENTS ON OUR INSTAGRAM We specialise in Corporate Training in Communication and Management Skills and Employment Equity Training and Consulting. Our training courses achieve…",
+      "heroImage": null,
+      "seoTitle": null,
+      "seoDescription": null,
+      "navOrder": 6,
+      "legacyId": 17599,
+      "publishedAt": "2017-03-17 13:48:52",
+      "updatedAt": "2019-11-22 01:45:04",
+      "navLabel": "Conferencing"
+    }
+  ],
+  "posts": [
+    {
+      "slug": "ponzi-schemes",
+      "title": "Ponzi Schemes",
+      "content": "<p>There have recently being a number of articles about Ponzi schemes. Some of you may remember the one run in South Africa by Barry Tannebaum – now on the run in Australia. And then there was the biggest scheme of them all, run in the USA by Bernie Madoff, which defrauded investors out of $65 billion. (He was sentenced in 2009 to 150 years in prison.) So what is a Ponzi Scheme?</p>\n<p>A Ponzi scheme is a fraudulent investment operation where the operator, an individual or organization, pays returns to its investors from capital paid to the operators by new investors, rather than from profit earned by the operator. Operators of Ponzi schemes usually entice new investors by offering <em>higher returns</em> than other investments, in the form of short-term returns that are either abnormally high or unusually consistent. It is often said about investments – “If they sound too good to be true – they usually are.”</p>\n<p>Ponzi schemes occasionally begin as legitimate businesses, until the business fails to achieve the returns expected. The business becomes a Ponzi scheme if it then continues under fraudulent terms. Whatever the initial situation, the perpetuation of the high returns requires an ever-increasing flow of money from new investors to sustain the scheme.</p>\n<p>The scheme is named after Charles Ponzi, who became notorious for using the technique in 1920. The scheme that seems to have been one of the first was done by Ponzi, who with his operation took in so much money that it was the first to become known throughout the United States. Ponzi’s original scheme was based on the arbitrage of international reply coupons for postage stamps; however, he soon diverted investors’ money to make payments to earlier investors and himself.</p>\n<p>Typically, extraordinary returns are promised on the original investment and vague promises such as “hedge futures trading”, “high-yield investment programs”, or “offshore investment” might be used. The promoter sells shares to investors by taking advantage of a lack of investor knowledge or competence, or using claims of a proprietary investment strategy which must be kept secret to ensure a competitive edge.</p>\n<p>Ponzi schemes sometimes commence operations as legitimate investment vehicles, such as hedge funds. For example, a hedge fund can degenerate into a Ponzi scheme if it unexpectedly loses money and if the promoters, instead of admitting their failure to meet expectations, fabricate false returns and produce fraudulent audit reports.</p>\n<p>A wide variety of investment vehicles or strategies, typically legitimate, have become the basis of Ponzi schemes. For instance in a famous example of a Ponzi scheme, Allen Stanford used bank certificates of deposit to defraud tens of thousands of people. Certificates of deposit are usually low-risk and insured instruments, but the Stanford CDs were fraudulent.</p>\n<p>Initially the promoter will pay out high returns to attract more investors, and to lure current investors into putting in additional money. Other investors begin to participate, leading to a cascade effect. The “return” to the initial investors is paid out of the investments of new entrants, and not out of profits.</p>\n<p>Often the high returns encourage investors to leave their money in the scheme, with the result that <em>the promoter does not have to pay out very much to investors; he simply has to send them statements showing how much they have earned</em>. This maintains the deception that the scheme is an investment with high returns.</p>\n<p>Promoters also try to minimize withdrawals by offering new plans to investors, often where money is frozen for a longer period of time, in exchange for higher returns. The promoter sees new cash flows as investors are told they cannot transfer money from the first plan to the second. If a few investors do wish to withdraw their money in accordance with the terms allowed, their requests are usually promptly processed, which gives the illusion to all other investors that the fund is solvent.</p>\n<p>There might just be another one on the go:</p>",
+      "excerpt": "There have recently being a number of articles about Ponzi schemes. Some of you may remember the one run in South Africa by Barry Tannebaum – now on the run in Australia. And then…",
+      "coverImage": null,
+      "publishedAt": "2016-01-11 12:29:10",
+      "legacyId": 16625
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Mr and Mrs Hadebe",
+      "quote": "When you are in the financial industry you know the image you have to project to people. You have to be agile and authoritative; Consulting Pmd Investment was the solution for me as they did not display a false image like what we see on Social Media.",
+      "role": "Chief Financial Officer",
+      "company": "Dept Of Public Works",
+      "photo": null,
+      "legacyId": 335
+    },
+    {
+      "name": "Thulani",
+      "quote": "The demands for financial institutions have changed a bit. Obfuscation is no longer accepted, which is why this Pmd Investment is perfect and is adapting to the regulations quickly.",
+      "role": "Chairman",
+      "company": "Kreutz Airlines",
+      "photo": "{{media:2014/05/team12.jpg}}",
+      "legacyId": 336
+    },
+    {
+      "name": "Tim Nkuna",
+      "quote": "We were amazed by how little effort was required on our part to have Pmd Investment Solutions introduce us to forex trading. We exchanged a few phone calls set a one on appoint with their facilitator and today we are traders the rest is history.",
+      "role": "Dealer",
+      "company": "Nkuna Solutions",
+      "photo": "{{media:2014/05/team11.jpg}}",
+      "legacyId": 337
+    },
+    {
+      "name": "Christoz Martin",
+      "quote": "We thought a lot before choosing the Pmd because we wanted to be sure our investment would yield results. This was clearly the best choice, signals are fantastic!!",
+      "role": "Chairman",
+      "company": "Harmony Corporation",
+      "photo": null,
+      "legacyId": 16862
+    }
+  ],
+  "events": [
+    {
+      "slug": "tax-conference",
+      "title": "Tax Conference",
+      "description": null,
+      "startDate": "2017-03-08 00:00:00",
+      "endDate": "2017-03-08 23:59:59",
+      "venue": {
+        "name": "The Holiday Inn",
+        "address": "123 Rivonia Road Sandton",
+        "city": "Johannesburg",
+        "province": "Gauteng",
+        "postalCode": "2148",
+        "country": "South Africa"
+      },
+      "image": null,
+      "legacyId": 17556
+    },
+    {
+      "slug": "payroll-training",
+      "title": "Payroll Training",
+      "description": null,
+      "startDate": "2017-05-08 00:00:00",
+      "endDate": "2017-06-08 23:59:59",
+      "venue": {
+        "name": "The Holiday Inn",
+        "address": "123 Rivonia Road Sandton",
+        "city": "Johannesburg",
+        "province": "Gauteng",
+        "postalCode": "2148",
+        "country": "South Africa"
+      },
+      "image": null,
+      "legacyId": 17569
+    },
+    {
+      "slug": "protocol",
+      "title": "Protocol",
+      "description": null,
+      "startDate": "2017-09-04 08:00:00",
+      "endDate": "2017-09-08 17:00:00",
+      "venue": null,
+      "image": null,
+      "legacyId": 17581
+    }
+  ]
+}
