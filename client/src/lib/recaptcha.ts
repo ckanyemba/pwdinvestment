@@ -9,15 +9,14 @@ declare global {
   }
 }
 
-const SITE_KEY = process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY;
 let loading: Promise<void> | null = null;
 
-function load(): Promise<void> {
-  if (!SITE_KEY) return Promise.resolve();
+function load(siteKey?: string): Promise<void> {
+  if (!siteKey) return Promise.resolve();
   if (!loading) {
     loading = new Promise((resolve, reject) => {
       const s = document.createElement('script');
-      s.src = `https://www.google.com/recaptcha/api.js?render=${SITE_KEY}`;
+      s.src = `https://www.google.com/recaptcha/api.js?render=${siteKey}`;
       s.async = true;
       s.onload = () => resolve();
       s.onerror = () => {
@@ -31,15 +30,15 @@ function load(): Promise<void> {
 }
 
 /** Warm up the script when a form mounts. */
-export function preloadRecaptcha() {
-  load().catch(() => {});
+export function preloadRecaptcha(siteKey?: string) {
+  load(siteKey).catch(() => {});
 }
 
 /** reCAPTCHA v3 token for an action; undefined when no site key is configured (local dev). */
-export async function getRecaptchaToken(action: string): Promise<string | undefined> {
-  if (!SITE_KEY) return undefined;
-  await load();
+export async function getRecaptchaToken(siteKey: string | undefined, action: string): Promise<string | undefined> {
+  if (!siteKey) return undefined;
+  await load(siteKey);
   return new Promise((resolve, reject) => {
-    window.grecaptcha!.ready(() => window.grecaptcha!.execute(SITE_KEY, { action }).then(resolve, reject));
+    window.grecaptcha!.ready(() => window.grecaptcha!.execute(siteKey, { action }).then(resolve, reject));
   });
 }

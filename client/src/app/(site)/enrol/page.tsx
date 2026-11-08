@@ -19,7 +19,7 @@ export default function EnrolPage() {
           Your ID and banking details are encrypted and only accessible to authorised PMD staff, in line with the Protection of Personal Information Act (POPIA).
         </p>
         <div className="mt-10">
-          <EnrolmentForm />
+          <EnrolmentForm recaptchaSiteKey={process.env.RECAPTCHA_SITE_KEY} />
         </div>
       </div>
     </>

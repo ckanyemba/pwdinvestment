@@ -1,6 +1,6 @@
 /** Google Maps embed. Uses the Maps Embed API when a key is set, otherwise the keyless embed. */
 export function GoogleMap({ query, title = 'Map', className = 'h-[380px]' }: { query: string; title?: string; className?: string }) {
-  const key = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY;
+  const key = process.env.GOOGLE_MAPS_API_KEY;
   const q = encodeURIComponent(query);
   const src = key
     ? `https://www.google.com/maps/embed/v1/place?key=${key}&q=${q}&zoom=16`

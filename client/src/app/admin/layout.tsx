@@ -5,5 +5,5 @@ export const metadata: Metadata = { title: 'Admin', robots: { index: false, foll
 
 // Client-rendered staff area. Every API call is authorised server-side (Google sign-in + allow-list).
 export default function AdminLayout({ children }: LayoutProps<'/admin'>) {
-  return <AdminShell>{children}</AdminShell>;
+  return <AdminShell googleClientId={process.env.GOOGLE_CLIENT_ID || ''}>{children}</AdminShell>;
 }
