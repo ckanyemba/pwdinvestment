@@ -4,13 +4,13 @@ import { notFound } from 'next/navigation';
 import { Suspense } from 'react';
 import { PageHeader } from '@/components/PageHeader';
 import { Prose } from '@/components/Prose';
-import { getPage, getPages, safe } from '@/lib/api';
+import { getPage, getPages, PLACEHOLDER_SLUG, safe } from '@/lib/api';
 
 // Generic CMS page (Forex, Share Market, Education, Disclaimer, …).
 export async function generateStaticParams() {
   const pages = await safe(getPages, []);
   // Cache Components requires at least one param; the placeholder resolves to notFound().
-  return pages.length ? pages.map((p) => ({ slug: p.slug })) : [{ slug: '__placeholder__' }];
+  return pages.length ? pages.map((p) => ({ slug: p.slug })) : [{ slug: PLACEHOLDER_SLUG }];
 }
 
 export async function generateMetadata({ params }: PageProps<'/[slug]'>): Promise<Metadata> {
@@ -26,6 +26,7 @@ export async function generateMetadata({ params }: PageProps<'/[slug]'>): Promis
 
 async function CmsPage({ params }: { params: PageProps<'/[slug]'>['params'] }) {
   const { slug } = await params;
+  if (slug === PLACEHOLDER_SLUG) notFound();
   const page = await getPage(slug);
   if (!page) notFound();
 
