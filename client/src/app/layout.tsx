@@ -9,10 +9,10 @@ const SITE_URL = (process.env.SITE_URL || 'https://pmdinvestment.co.za').replace
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: { default: 'PMD Investment Academy | Financial Markets Education', template: '%s | PMD Investment Academy' },
+  title: { default: 'Pmd Investment Academy | Financial Markets Education', template: '%s | Pmd Investment Academy' },
   description:
     'Proudly black-owned financial markets and conferencing training institute in Johannesburg. Learn to trade Forex, shares, commodities and cryptocurrencies.',
-  openGraph: { type: 'website', siteName: 'PMD Investment Academy', locale: 'en_ZA', images: ['/logo.png'] },
+  openGraph: { type: 'website', siteName: 'Pmd Investment Academy', locale: 'en_ZA', images: ['/logo.png'] },
 };
 
 export default function RootLayout({ children }: LayoutProps<'/'>) {
