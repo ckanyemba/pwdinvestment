@@ -1,7 +1,7 @@
 import type { MetadataRoute } from 'next';
 import { getPages, getPosts, safe } from '@/lib/api';
 
-const SITE_URL = process.env.SITE_URL || 'https://pmdinvestment.co.za';
+const SITE_URL = (process.env.SITE_URL || 'https://pmdinvestment.co.za').replace(/\/$/, '');
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const [pages, posts] = await Promise.all([safe(getPages, []), safe(getPosts, [])]);
