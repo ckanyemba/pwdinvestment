@@ -134,7 +134,7 @@ router.post(
       subject: 'Your PMD Investment Academy enrolment',
       text: `Dear ${data.firstNames},\n\nThank you for enrolling with PMD Investment Academy. A consultant will contact you during ${
         data.contactTime || 'office hours'
-      }.\n\nRegards,\nPMD Investment Academy\n011 492 0567`,
+      }.\n\nRegards,\nPMD Investment Academy\n087 702 1911`,
     }).catch((err) => console.error('[mailer] confirmation failed:', err.message));
 
     res.status(201).json({ ok: true, id: enrolment.id });

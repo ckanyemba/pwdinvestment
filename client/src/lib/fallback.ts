@@ -7,8 +7,8 @@ export const FALLBACK_SITE: SiteResponse = {
     name: 'PMD Investment Academy',
     tagline: 'Financial Markets Education (Learn to trade Forex, Commodities, Crypto-currencies, Shares and many more)',
     address: ['58 Marshall Street', 'Office 412, The Business Place', 'Marshalltown', 'Johannesburg', '2107'],
-    phone: '011 492 0567',
-    fax: '011 492 0444',
+    phone: '087 702 1911',
+    fax: '',
     emails: { general: 'info@pmdinvestment.co.za', admin: 'admin@pmdinvestment.co.za' },
     social: {
       facebook: 'https://www.facebook.com/pmdinvestment/',
